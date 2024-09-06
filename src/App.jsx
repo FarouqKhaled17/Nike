@@ -1,11 +1,11 @@
 import Hero from "./sections/Hero.jsx";
 import { CustomerReviews, Footer, Subscribe,PopularProducts,SuperQuality,SpecialOffer, Services } from "./sections/index.js";
-
+import Nav from "./components/Nav.jsx";
 const App=()=>(
 
 
 <main className="relative">
-  {/* nav */}
+  <Nav/>
   <section className="xl:padding-1 wide:padding-r padding-b">
     <Hero/>
   </section>
